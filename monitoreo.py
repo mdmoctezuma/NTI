@@ -112,7 +112,7 @@ for m in range(it):
             h.write("\n")
         print("Terminé muestra " + str(m))
         # Espera hasta el tiempo de la siguiente muestra
-        time.sleep(300) #600=10 minutos
+        time.sleep(300) #600=10 minut
     finally:
         sock.close()
 
